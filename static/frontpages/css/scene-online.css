@@ -1,0 +1,110 @@
+/* banner */
+.scene-online-banner-wrap {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 468px;
+    background: url(../images/scene-online/scene.png) no-repeat center;
+    padding: 20px auto;
+    margin-top: 105px;
+}
+.scene-online-banner {
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+/* 工地详情 */
+.scene-details-wrap {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #f1f6f9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.scene-details {
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    height: 166px;
+    padding: 35px 25px;
+    position: relative;
+}
+.scene-details h2 {
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+.scene-details ul li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.scene-details-in {
+    width: 500px;
+    height: 166px;
+}
+.scene-details button {
+    width: 215px;
+    height: 70px;
+    background: #0093dd;
+    border: none;
+    outline: none;
+    position: absolute;
+    top:48px;
+    right: 25px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.scene-details button:hover {
+    background: gray;
+}
+/* 工地进程 */
+.progress-list-wrap {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background:#f1f6f9;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+}
+.progress-list {
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-left: 3px solid #0093dd;
+}
+.progress-list-title {
+    padding: 30px 15px 15px 15px;
+}
+.progress-list-active {
+    font-size: 18px;
+    color: #0093dd;
+    font-family: '黑体'', Tahoma, Geneva, Verdana, sans-serif;
+}
+.progress-list ul li {
+    position: relative;
+}
+.progress-list-circle {
+    position: absolute;
+    left:-7.5px;
+    top:35px;
+    width: 15px;
+    height: 15px;
+    background: #0093dd;
+    border-radius: 50%;
+}
+.progress-list-pics {
+    padding-left: 15px;
+}
+.progress-list-pics > ul > li {
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+.progress-list-pics > ul > li:nth-of-type(4n+4) {
+    margin-right: 0;
+}

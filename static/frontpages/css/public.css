@@ -1,0 +1,50 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 1300px;
+    line-height: 1.5;
+    color: #333;
+    background: #fff;
+}
+
+.clearfix::before {
+    display: table;
+    content: " ";
+}
+
+.clearfix::after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+li {
+    list-style: none;
+}
+a:link,
+a:visited,
+a:focus,
+a:active {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    color: #1d9d73;
+}
+
+.pageNow {
+    background: #0093dd !important;
+    color: #ffffff !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
